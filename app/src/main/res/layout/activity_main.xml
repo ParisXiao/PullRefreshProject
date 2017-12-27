@@ -11,10 +11,21 @@
        android:layout_height="match_parent"
        android:id="@+id/smartRefresh"
        >
+      <com.scwang.smartrefresh.layout.header.ClassicsHeader
+          android:id="@+id/smartHeader"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          app:srlAccentColor="@android:color/white"/>
       <com.zyzk.mysmartpullrefreshlibrary.MyRecycleView
           android:layout_width="match_parent"
           android:layout_height="match_parent"
           android:id="@+id/myRecycleView"
+          />
+      <com.scwang.smartrefresh.layout.footer.ClassicsFooter
+          android:id="@+id/smartFooter"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          app:srlClassicsSpinnerStyle="Translate"
           />
    </com.zyzk.mysmartpullrefreshlibrary.MySmartPullRefresh>
 
