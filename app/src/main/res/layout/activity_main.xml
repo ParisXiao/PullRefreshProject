@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.zyzk.pullrefreshproject.MainActivity">
+
+   <com.zyzk.mysmartpullrefreshlibrary.MySmartPullRefresh
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:id="@+id/smartRefresh"
+       >
+      <com.zyzk.mysmartpullrefreshlibrary.MyRecycleView
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:id="@+id/myRecycleView"
+          />
+   </com.zyzk.mysmartpullrefreshlibrary.MySmartPullRefresh>
+
+</RelativeLayout>
